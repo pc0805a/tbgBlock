@@ -19,7 +19,7 @@
  */
 
 /**
- * @fileoverview Helper functions for generating JavaScript for blocks.
+ * @fileoverview Helper functions for generating TableGen for blocks.
  * @author fraser@google.com (Neil Fraser)
  */
 'use strict';
@@ -45,8 +45,3 @@ Blockly.TableGen = new Blockly.Generator('TableGen');
 Blockly.TableGen.addReservedWords(
     // http://arduino.cc/en/Reference/HomePage
   );
-
- /**
- * Order of operation ENUMs.
- * https://developer.mozilla.org/en/JavaScript/Reference/Operators/Operator_Precedence
- */
