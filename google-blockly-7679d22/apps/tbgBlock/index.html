@@ -4,6 +4,7 @@
         <title>tbgBlock</title>
         <script src="../../blockly_compressed.js"></script>
         <script src="../../blocks_compressed.js"></script>
+        <script src="../../tablegen_compressed.js"></script>
         <script src="../../msg/js/en.js"></script>
         <style>
                 html, body {
@@ -47,13 +48,20 @@
         </table>
         <div id="blocklyDiv" style="position: absolute"></div>
         <xml id="toolbox" style="display: none">
-                <block type="controls_if"></block>
-                <block type="controls_repeat_ext"></block>
-                <block type="logic_compare"></block>
-                <block type="math_number"></block>
-                <block type="math_arithmetic"></block>
-                <block type="text"></block>
-                <block type="text_print"></block>
+                <category name="Basic" colour="60">
+                </category>
+                <category name="Instructions" colour="210">
+                    <block type="addri"></block>
+                </category>
+                <category name="Register" colour="30">
+                        <block type="rn"></block>
+                        <block type="rd"></block>
+                        <block type="imm32"></block>
+                </category>
+                <category name="Others" colour="120">
+                </category>
+
+
         </xml>
         <script>
             var blocklyArea = document.getElementById('blocklyArea');

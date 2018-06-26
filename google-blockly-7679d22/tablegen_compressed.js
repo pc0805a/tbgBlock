@@ -2,4 +2,4 @@
 'use strict';
 
 
-Blockly.TableGen=new Blockly.Generator("TableGen");Blockly.TableGen.addReservedWords();
+Blockly.TableGen=new Blockly.Generator("TableGen");Blockly.TableGen.addReservedWords();Blockly.TableGen.ORDER_NONE=99;

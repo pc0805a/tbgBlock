@@ -44,4 +44,15 @@ Blockly.TableGen = new Blockly.Generator('TableGen');
  */
 Blockly.TableGen.addReservedWords(
     // http://arduino.cc/en/Reference/HomePage
-  );
+);
+
+/**
+ * Order of operation ENUMs.
+ *
+ */
+Blockly.TableGen.ORDER_NONE = 99;          // (...)
+
+
+
+
+
