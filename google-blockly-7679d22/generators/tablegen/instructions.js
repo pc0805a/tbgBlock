@@ -1,4 +1,4 @@
-/*
+
 Blockly.TableGen['addri'] = function(block) {
     var value_rn = Blockly.TableGen.valueToCode(block, 'rn', Blockly.TableGen.ORDER_ATOMIC);
     // TODO: Assemble TableGen into code variable.
@@ -28,4 +28,3 @@ Blockly.TableGen['imm32'] = function(block) {
     // TODO: Change ORDER_NONE to the correct strength.
     return [code, Blockly.TableGen.ORDER_NONE];
 };
-*/

@@ -42,9 +42,7 @@ Blockly.TableGen = new Blockly.Generator('TableGen');
  * accidentally clobbering a built-in object or function.
  * @private
  */
-Blockly.TableGen.addReservedWords(
-    // http://arduino.cc/en/Reference/HomePage
-);
+Blockly.TableGen.addReservedWords();
 
 /**
  * Order of operation ENUMs.
