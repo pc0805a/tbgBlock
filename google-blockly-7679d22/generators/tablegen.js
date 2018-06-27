@@ -117,19 +117,7 @@ Blockly.TableGen.scrubNakedValue = function(line) {
   return line + ';\n';
 };
 
-/**
- * Encode a string as a properly escaped TableGen string, complete with
- * quotes.
- * @param {string} string Text to encode.
- * @return {string} TableGen string.
- * @private
- */
-Blockly.TableGen.quote_ = function(string) {
-  string = string.replace(/\\/g, '\\\\')
-                 .replace(/\n/g, '\\\n')
-                 .replace(/'/g, '\\\'');
-  return '\'' + string + '\'';
-};
+
 
 /**
  * Common tasks for generating TableGen from blocks.
