@@ -3,7 +3,7 @@ Blockly.TableGen['addri'] = function(block) {
     var value_rn = Blockly.TableGen.valueToCode(block, 'rn', Blockly.TableGen.ORDER_ATOMIC);
     // TODO: Assemble TableGen into code variable.
     var code = '...;\n';
-    return code;
+    return [code, Blockly.TableGen.ORDER_NONE];
 };
 
 Blockly.TableGen['rn'] = function(block) {
