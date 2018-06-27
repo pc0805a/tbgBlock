@@ -20,8 +20,8 @@
 
 /**
  * @fileoverview Helper functions for generating TableGen for blocks.
- * @author rodrigoq@google.com (Rodrigo Queiro)
- * Based on Ellen Spertus's blocky-TableGen project.
+ * @author pc0805a@google.com (Chia-Wei, Chang)
+ * Based on Rodrigo Queiro 's blocky Lua generator.
  */
 'use strict';
 
